@@ -17,4 +17,8 @@ data = parsed
 #pprint(str(parsed["site"]["id"]))
 
 j2_template = Template(template)
-print(j2_template.render(data))
+rendered_template = j2_template.render(data)
+
+with open("docs/index.rst", "w") as sphinx_file:
+    sphinx_file.write(rendered_template)
+
