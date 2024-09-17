@@ -1,0 +1,5 @@
+---
+site:
+    id: site01
+    name: Site 01
+address: ["1 Some Street"]

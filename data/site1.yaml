@@ -1,0 +1,18 @@
+---
+site:
+    id: site01
+    name: Site 01
+    address: 
+     - 1 Some Street
+     - Somewhere
+     - Anywhere
+     - EX01 2AB
+     - UK
+
+solution:
+    id: example-sol-a
+
+routing:
+    - route01:
+        prefix: 192.168.1.0/24
+        gateway: 192.168.255.0
